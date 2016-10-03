@@ -20,7 +20,7 @@
 #define SBIT_RESULT     4u
 #define SBIT_CLCKDIV    8u
 
-/*DELAY function*/
+/*Function to provide delay when needed*/
 void DELAY_us(int len)
 {
 	for(int p=0;p<len;p++)
